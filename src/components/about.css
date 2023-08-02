@@ -1,0 +1,34 @@
+.about-us {
+  padding: 0.5em 2em;
+  background-color: rgb(250, 227, 250);
+}
+
+.about {
+  background-color: #fff;
+  margin: 1em 0;
+  padding: 1em;
+
+}
+
+.about-header {
+  color: #000;
+  font-size: 1.2em;
+}
+
+.about-title span{
+  color: rgb(199, 11, 199);
+  margin-bottom: 10em;
+}
+
+.about-text{
+  font-size: 1.2em;
+  color: #434343;
+}
+
+@media screen and (min-width: 1080px) {
+  .about-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+  }
+}

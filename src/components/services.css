@@ -1,0 +1,83 @@
+.services-section {
+  padding: 1em ;
+ 
+  }
+
+.services-header{
+  margin: auto;
+  width: 30em;
+  text-align: center;
+  background-color: rgb(228, 47, 231);
+  color: #fff;
+  
+}
+
+
+.services-text {
+  color: #000;
+  font-family: 'Red Rose', cursive;
+  margin: 1.5em 0 ;
+
+}
+
+.services-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+.services-description {
+  color: #434343;
+  font-size: 1.3em;
+}
+
+.services-image {
+text-align: center;
+}
+
+.services-image img {
+  height: 300px;
+  width: 400px;
+}
+
+.services-button {
+  text-align: center;
+}
+
+.services-learn-button{
+  color: white;
+  background-color: mediumpurple;
+  font-size: 1em;
+  font-weight: bold;
+  padding: 1em 1em;
+  border-radius: 4px;
+  margin: 0 auto;
+  border: none;
+}
+
+@media screen and (min-width: 1080px) {
+  .services {
+    display: flex;
+    justify-content: center;
+    gap: 1.2em;
+    margin-bottom: 1em;
+    padding-top: 1em;
+    
+  }
+
+  .services-text {
+    max-width: 600px;
+  }
+
+  .services-image {
+    max-width: 520px;
+    text-align: center;
+    }
+    
+  .services-image img {
+      height: 300px;
+      width: 550px;
+      
+    }
+}
