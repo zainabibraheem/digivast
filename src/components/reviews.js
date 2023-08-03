@@ -6,7 +6,7 @@ function Reviews() {
   return (
     
       <section className='review-section'>
-        <div className=''>
+        <div className='review-header-div'>
           <h4 className='review-header'>Reviews</h4>
 
           <div className='review'>
