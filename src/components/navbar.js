@@ -21,7 +21,7 @@ const toggleNavbar = () => {
           <li><a href='#'>Services</a></li>
           <li><a href='#'>Our packages</a></li>
           <li><a href='#'>Reviews</a></li>
-          <li><button  className='link-button'>Join Us</button></li>
+          <li><button className='link-btn'>Join Us</button></li>
         </ul>
 
         

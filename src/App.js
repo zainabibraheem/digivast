@@ -4,6 +4,7 @@ import About from "./components/about";
 import Services from "./components/services";
 import servicesData from "./components/servicesdata";
 import Reviews from "./components/reviews";
+import Footer from "./components/footer";
 
 import './App.css'
 
@@ -30,6 +31,7 @@ function App() {
           {servicesDetails}
         </section>
         <Reviews/>
+        <Footer/>
       </div>
   );
 }

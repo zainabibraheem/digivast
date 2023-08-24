@@ -1,0 +1,152 @@
+.footer-section {
+  background-color: rgb(199, 11, 199);
+  padding: 2em 2em;
+}
+
+.footer-container {
+
+
+  color: #fff;
+}
+
+.footer-logo {
+  color: mediumpurple;
+  font-weight: bold;
+  font-size: 1.8em;
+
+}
+
+.footer-logo span {
+  color: #fff;
+}
+
+.link-button {
+  color: rgb(199, 11, 199);
+  padding: .8em 2em;
+  background-color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  border: 1px solid transparent;
+  border: 10px;
+  margin-left: 0;
+  border-radius: 3px;
+
+}
+
+.footer-links {
+  margin: 3.5em 0;
+}
+
+.footer-text {
+  color: #fff;
+  font-size: 17px;
+  font-family: roboto, sans-serif;
+}
+
+.links-title {
+  font-weight: bold;
+  font-family: roboto, sans-serif;
+  font-size: 23px;
+}
+
+.link-items {
+  list-style: none;
+}
+
+.link-items li {
+
+  margin-bottom: .5em;
+  font-family: roboto, sans-serif;
+}
+
+
+
+.newsletter-title {
+  font-weight: bold;
+  font-family: roboto, sans-serif;
+  font-size: 25px;
+}
+
+.newsletter-text {
+
+  margin-bottom: 1.5em;
+  font-family: roboto, sans-serif;
+}
+
+.newsletter-input {
+  border: none;
+  padding: 10px;
+  width: 25em;
+  border-radius: 2px;
+  font-size: 15px;
+
+}
+
+.newsletter-btn {
+
+  border: none;
+
+  color: rgb(199, 11, 199);
+  padding: .5em 1.5em;
+  background-color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  border: 1px solid transparent;
+  border: 15px;
+  margin-left: 0;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  background-color: rgb(199, 11, 199);
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.hr{
+  margin-top: 2em;
+}
+
+.copyright-div {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sm-logo {
+  margin-left: .7em;
+}
+
+@media screen and (min-width: 1080px) {
+.footer-section{
+  padding: 0 3em;
+}
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+  }
+
+  .footer-about {
+    max-width: 450px;
+  }
+
+  .footer-links {
+    margin-top: 5em;
+  }
+
+  .copyright-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sm-logo {
+    margin-left: 1.2em;
+  }
+
+}

@@ -55,8 +55,13 @@
   font-weight: bolder;
 }
 
+.review-review{
+  font-size: 15px;
+  font-family: roboto, sans-serif;
+}
+
 .review-title{
-  color:  rgb(199, 11, 199);
+  color:  rgb(122, 8, 124);
 }
 
 @media screen and (min-width: 1080px) {
