@@ -25,6 +25,41 @@
   color: #434343;
 }
 
+.consultation-title{
+  font-size: 2em;
+  color: #000
+}
+
+.consultation-text {
+  font-size: 1.2em;
+  color: #434343;
+}
+
+.consultation-button {
+
+  border: none;
+
+  color: #fff;
+  padding: .7em 1.5em;
+  background-color: rgb(199, 11, 199);
+  font-size: 1em;
+  font-weight: bold;
+  border: 1px solid transparent;
+  border: 15px;
+  margin-left: 0;
+  border-radius: 5px;
+}
+
+.consultation-button:hover {
+  background-color: rgb(199, 11, 199);
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.consultation-div{
+  margin-bottom: 1em;
+}
+
 @media screen and (min-width: 1080px) {
   .about-div {
     display: grid;

@@ -25,15 +25,15 @@ function About() {
         </div>
 
         <div className='about'>
-          <h2 className='about-title'><span>Digivast Development</span> <br /><br /> Evolve Beyond Spreadsheets!</h2>
+          <h2 className='about-title'><span>Digivast Development</span> <br /><br /> Evolve Beyond Spreadsheets</h2>
           <p className='about-text'>Increasing brand awareness and engagement is one of the greatest challenges most businesses struggle with. Building a successful business requires good strategies and marketing plans.</p>
         </div>
       </div>
 
-      <div>
-        <h3>Free Consultation</h3>
-        <p>Book a Free consultation</p>
-        <button>Chat Now</button>
+      <div className='consultation-div'>
+        <h3 className='consultation-title'>Free Consultation!</h3>
+        <p className='consultation-text'>Book a Free concsultation.</p>
+        <button className='consultation-button'>Chat Now</button>
       </div>
     </div>
   )
