@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './navbar.css'
 import {RxCross2} from 'react-icons/rx' 
 import {FiMenu} from 'react-icons/fi'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
 const [toggle, settoggle] = useState(false)
@@ -16,6 +17,7 @@ const toggleNavbar = () => {
       <div className='nav-logo'>DIGI<span>VAST</span></div>
       <div className='nav-links-div'>
         <ul className= {toggle? 'nav-links-toggle' : 'nav-links'}>
+      
           <li><a href='#'>Home</a></li>
           <li><a href='#'>About Us</a></li>
           <li><a href='#'>Services</a></li>

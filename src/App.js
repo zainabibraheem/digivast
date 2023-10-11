@@ -5,6 +5,7 @@ import Services from "./components/services";
 import servicesData from "./components/servicesdata";
 import Reviews from "./components/reviews";
 import Footer from "./components/footer";
+import {browserRouter, Routes, Route, Link} from 'react-router-dom'
 
 import './App.css'
 
@@ -23,7 +24,8 @@ const servicesDetails = servicesData.map((item) => {
 
 function App() {
   return (
-    <div className="App">
+
+    <div className="App"> 
         <Navbar/>
         <Home/>
         <About/>
