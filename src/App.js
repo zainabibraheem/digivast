@@ -6,6 +6,7 @@ import servicesData from "./components/servicesdata";
 import Reviews from "./components/reviews";
 import Footer from "./components/footer";
 import {browserRouter, Routes, Route, Link} from 'react-router-dom'
+import Zoom from 'react-reveal/Zoom'
 
 import './App.css'
 
@@ -28,7 +29,7 @@ function App() {
     <div className="App"> 
         <Navbar/>
         <Home/>
-        <About/>
+        <Zoom><About/></Zoom>
         <section className="services-section">
           {servicesDetails}
         </section>

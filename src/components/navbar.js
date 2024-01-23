@@ -4,6 +4,7 @@ import {RxCross2} from 'react-icons/rx'
 import {FiMenu} from 'react-icons/fi'
 import { Link } from 'react-router-dom'
 
+
 function Navbar() {
 const [toggle, settoggle] = useState(false)
 
